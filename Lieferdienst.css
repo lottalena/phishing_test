@@ -43,6 +43,9 @@
       .gutschein_text{
         display: none;
      }
+      .zentrierter-text p {
+        display: none;
+      }
     
   }
 
