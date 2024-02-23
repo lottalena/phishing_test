@@ -1,3 +1,29 @@
+@media (max-width: 600px) {
+    .anmeldeformular {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .bild-mit-text h1 {
+      font-size: 1.5rem;
+    }
+    .bild-mit-text h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    .info-box {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .info-box {
+      display: none;
+    }
+  }
 
 body{
     overflow: auto;
