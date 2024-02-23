@@ -22,14 +22,26 @@
       font-size: 1.0rem;
       margin-top: 2px;
     }
-    .info-box {
-      display: none;
-    }
-    .text_info_box{
-        display: none;
-    }
+    
   }
 
+  @media (max-width: 650px) {
+    .zentrierter-text h1 {
+        font-size: 1rem;
+        margin-top: 5px;
+      }
+      .zentrierter-text h2 {
+        font-size: 0.8rem;
+        margin-top: 17%;
+      }
+      .info-box {
+        display: none;
+      }
+      .text_info_box{
+          display: none;
+      }
+    
+  }
 
 body{
     overflow: auto;
@@ -161,7 +173,7 @@ footer p, footer h2 {
 }
 
 .zentrierter-text h2 {
-    font-size: 3rem;   /* Schriftgröße */
+    font-size: 2.5rem;   /* Schriftgröße */
     color: #fab85d;  /* Farbe */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Schriftschatten für bessere Lesbarkeit */
     margin-bottom: 1rem; /* Abstand zum nächsten Element */
