@@ -41,7 +41,7 @@
           display: none;
       }
       .gutschein_text{
-         margin-bottom: 2%;
+        display: none;
      }
     
   }
