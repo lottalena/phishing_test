@@ -40,6 +40,9 @@
       .text_info_box{
           display: none;
       }
+      .gutschein_text{
+         margin-bottom: 2%;
+     }
     
   }
 
@@ -58,6 +61,9 @@
       .text_info_box{
           display: none;
       }
+     .gutschein_text{
+         margin-bottom: 5%;
+     }
     
   }
 
