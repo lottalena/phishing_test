@@ -1,0 +1,170 @@
+
+body{
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica' , Arial, sans-serif;
+    position: relative;
+    min-height: 100vh; 
+}
+
+
+.navigation-bar {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.Liste {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+} 
+
+
+.navigation-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.li {
+    padding: 5px;
+    
+}
+
+.li:hover{
+    background-color: rgb(110, 107, 107);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(110, 106, 106);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+footer p, footer h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.bild-mit-text {
+    position: relative;
+    width: 100%;
+}
+  
+.bild-mit-text img {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+  
+.zentrierter-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    color: white;
+}
+
+.info-box {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparentes Schwarz */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.anmeldeformular {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+}
+.anmeldeformular form {
+    display: flex;
+    flex-direction: column;
+}
+
+.anmeldeformular input[type="text"], .anmeldeformular input[type="email"], .anmeldeformular input[type="date"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.anmeldeformular input[type="submit"] {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    border: none;
+}
+.anmeldeformular input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.anmeldeformular h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.zentrierter-text h2 {
+    font-size: 3rem;   /* Schriftgröße */
+    color: #fab85d;  /* Farbe */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Schriftschatten für bessere Lesbarkeit */
+    margin-bottom: 1rem; /* Abstand zum nächsten Element */
+}
+
+.zentrierter-text p {
+    margin-bottom: 1rem; /* Abstand zum nächsten Element */
+}
+
+#pizza{
+    color: #fab85d;
+}
+
+.info-box2 {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.info-box2 h1 {
+    color: #e22b17;
+}
+
+.info-box2 p {
+    margin-bottom: 10px;
+}
+
+#rot {
+    background-color: #e22b17;
+}
