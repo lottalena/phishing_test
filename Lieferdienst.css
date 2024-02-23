@@ -6,21 +6,21 @@
 
   @media screen and (max-width: 768px) {
     .bild-mit-text h1 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     .bild-mit-text h2 {
-      font-size: 1.2rem;
+      font-size: 1.0rem;
     }
   }
   
   @media screen and (max-width: 768px) {
     .zentrierter-text h1 {
-      font-size: 1.5rem;
-      margin-top: 10px;
+      font-size: 1.3rem;
+      margin-top: 15px;
     }
     .zentrierter-text h2 {
-      font-size: 1.2rem;
-      margin-top: 5px;
+      font-size: 1.0rem;
+      margin-top: 2px;
     }
     .info-box {
       display: none;
