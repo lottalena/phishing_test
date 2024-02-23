@@ -13,17 +13,23 @@
     }
   }
   
-  @media screen and (min-width: 600px) {
-    .info-box {
-      width: 50%;
+  @media screen and (max-width: 768px) {
+    .zentrierter-text h1 {
+      font-size: 1.5rem;
+      margin-top: 10px;
     }
-  }
-  
-  @media screen and (max-width: 500px) {
+    .zentrierter-text h2 {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
     .info-box {
       display: none;
     }
+    .text_info_box{
+        display: none;
+    }
   }
+
 
 body{
     overflow: auto;
