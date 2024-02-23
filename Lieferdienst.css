@@ -41,22 +41,22 @@
           display: none;
       }
       .gutschein_text{
-        display: none;
-     }
+        margin-bottom: 5%;
+      }
       .zentrierter-text p {
         display: none;
       }
     
   }
 
- @media (max-width: 450px) {
+  @media (max-width: 400px) {
     .zentrierter-text h1 {
         font-size: 1rem;
         margin-top: 5px;
       }
       .zentrierter-text h2 {
         font-size: 0.8rem;
-        margin-top: 27%;
+        margin-top: 20%;
       }
       .info-box {
         display: none;
@@ -64,11 +64,8 @@
       .text_info_box{
           display: none;
       }
-     .gutschein_text{
-         display: none;
-     }
-     .zentrierter-text p {
-        display: none;
+      .gutschein_text{
+        margin-bottom: 5%;
       }
     
   }
@@ -242,3 +239,5 @@ footer p, footer h2 {
 #rot {
     background-color: #e22b17;
 }
+
+
