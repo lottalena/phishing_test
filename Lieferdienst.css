@@ -25,15 +25,6 @@
     
   }
 
-.navigation-bar {
-  background-size: contain;
-}
-.navigation-bar {
-  background-image: url("Logo1.png");
-  background-position: right top;
-  background-repeat: no-repeat;
-}
-
   @media (max-width: 650px) {
     .zentrierter-text h1 {
         font-size: 1rem;
@@ -115,7 +106,12 @@ body{
     color: white;
     text-decoration: none;
 }
-
+.navigation-bar {
+  background-image: url("Logo1.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .li {
     padding: 5px;
