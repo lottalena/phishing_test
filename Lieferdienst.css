@@ -85,6 +85,10 @@ body{
 
 .navigation-bar {
     background-color: black;
+    background-image: url("Logo1.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
     height: 50px;
     margin: 0;
@@ -106,14 +110,6 @@ body{
     color: white;
     text-decoration: none;
 }
-
-.navigation-bar {
-    background-image: url("Logo1.png");
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
 
 .li {
     padding: 5px;
