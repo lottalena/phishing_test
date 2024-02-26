@@ -106,12 +106,14 @@ body{
     color: white;
     text-decoration: none;
 }
+
 .navigation-bar {
-  background-image: url("Logo1.png");
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+    background-image: url("Logo1.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
 
 .li {
     padding: 5px;
@@ -247,5 +249,6 @@ footer p, footer h2 {
 #rot {
     background-color: #e22b17;
 }
+
 
 
