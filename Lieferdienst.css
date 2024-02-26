@@ -46,6 +46,9 @@
       .zentrierter-text p {
         display: none;
       }
+      .BD {
+        display: none;
+      }
     
   }
 
